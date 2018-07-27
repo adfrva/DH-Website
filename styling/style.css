@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+
+body {
+  padding-top: 0px;
+  font-family: Merriweather;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 0px;
+  }
+}
+
+.navbar{
+  background-color: #393c42;
+  color: white;
+  display: flex;
+  border-radius: 0;
+}
+
+.navbar-brand{
+  color: white;
+}
+
+.navbar-brand:hover{
+  color: darkgrey;
+}
+
+.navbar li{
+  padding: 10px;
+  padding-top: 15px;
+  display: inline-block;
+  list-style-type: none;
+  color: white;
+}
+
+#footer{
+  width: 100%;
+  background-color: #393c42;
+  color: white;
+  align: center;
+}
+
+#footer li{
+  list-style-type: none;
+  display: inline-block;
+  padding-right: 10px;
+  position: relative;
+}
